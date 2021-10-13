@@ -13,5 +13,6 @@
      <property name = "show_sql">true</property>
      <mapping class = "com.demo.DemoProject.Student" />
      <mapping class = "com.demo.DemoProject.Address" />
+     <mapping class = "com.demo.DemoProject.Certificate" />
   </session-factory>
 </hibernate-configuration>

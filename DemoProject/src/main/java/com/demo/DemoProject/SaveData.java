@@ -10,7 +10,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
-public class App 
+public class SaveData 
 {
     public static void main( String[] args ) throws IOException
     {
@@ -21,14 +21,14 @@ public class App
         
         // Creating student object
         Student std = new Student();
-        std.setId(100);
-        std.setName("Suchitra");
-        std.setCity("Delhi");
+        std.setId(102);
+        std.setName("Rohit");
+        std.setCity("Noida");
         
         // Creating address object
         Address add = new Address();
-        add.setStreet("street1");
-        add.setCity("Lucknow");
+        add.setStreet("street4");
+        add.setCity("Meerut");
         add.setOpen(true);
         add.setX(124.67);
         add.setAddedDate(new Date());
