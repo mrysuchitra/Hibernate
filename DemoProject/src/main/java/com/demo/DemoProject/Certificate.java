@@ -12,6 +12,12 @@ public class Certificate {
 	   super();
    }
    
+   public Certificate(String course, String duration) {
+		super();
+		this.course = course;
+		this.duration = duration;
+	}
+   
    public String getCourse() {
 		return course;
 	}
